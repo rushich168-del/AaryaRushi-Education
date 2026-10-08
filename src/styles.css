@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand defaults — keep in sync with src/config/brand.js (applied at runtime too). */
+  --brand-primary: #312e81; --brand-primary-rgb: 49 46 129;
+  --brand-primary-2: #3730a3; --brand-primary-2-rgb: 55 48 163;
+  --brand-primary-3: #4338ca; --brand-primary-3-rgb: 67 56 202;
+  --brand-ink: #1e1b4b; --brand-ink-rgb: 30 27 75;
+  --brand-accent: #f59e0b; --brand-accent-rgb: 245 158 11;
+  --brand-accent-2: #d97706; --brand-accent-2-rgb: 217 119 6;
+  --brand-accent-soft: #fef3c7; --brand-accent-soft-rgb: 254 243 199;
+  --brand-accent-ink: #92400e; --brand-accent-ink-rgb: 146 64 14;
+}
+
+:root {
+  color: #334155;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Telugu-capable stack for bilingual Draft text. The app's default stack (Inter, Segoe UI,
+   Arial) has no Telugu glyphs, so Telugu could fall back inconsistently per machine.
+   These families ship with Windows (Nirmala UI), macOS/Linux distributions and Noto, so no
+   web font is fetched. Characters that are not Telugu at all (the PDF's legacy private-use
+   glyphs) still show as boxes on purpose — they are not text, and must be retyped. */
+.ksc-telugu,
+.ksc-telugu input,
+.ksc-telugu textarea {
+  font-family: 'Nirmala UI', 'Noto Sans Telugu', 'Noto Serif Telugu', 'Gautami', 'Vani',
+    'Lohit Telugu', 'Pothana2000', 'Ramabhadra', 'Tenali Ramakrishna',
+    'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.16);
+  color: #0f172a;
+}
+
+.hero-scene {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(37, 99, 235, 0.09), transparent 30%),
+    radial-gradient(circle at 82% 28%, rgba(20, 184, 166, 0.09), transparent 28%),
+    radial-gradient(circle at 50% 100%, rgba(15, 23, 42, 0.04), transparent 34%),
+    linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92)),
+    repeating-linear-gradient(0deg, rgba(15, 23, 42, 0.035) 0 1px, transparent 1px 42px),
+    repeating-linear-gradient(90deg, rgba(15, 23, 42, 0.03) 0 1px, transparent 1px 42px);
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accentBlue;
+}
+
+/* ========================================================================= */
+/* SCREEN RESUME PREVIEW LAYOUT SAFETY                                       */
+/* ========================================================================= */
+.resume-workspace-preview-panel {
+  min-width: 0;
+  width: 100%;
+}
+
+.resume-preview-shell {
+  width: 100%;
+  min-width: 0;
+}
+
+.resume-preview {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* ========================================================================= */
+/* PRINT MEDIA ISOLATION FOR RESUME WORKSPACE                                */
+/* ========================================================================= */
+@media print {
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 11pt !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Hide the entire application interface */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Make ONLY the printable resume container and its descendants visible */
+  #resume-printable-surface,
+  #resume-printable-surface * {
+    visibility: visible !important;
+  }
+
+  /* Position the printable surface at the page origin */
+  #resume-printable-surface {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 12mm 15mm !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    box-sizing: border-box !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm 0mm;
+  }
+
+  .resume-section-item,
+  .resume-section-block,
+  .resume-header {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Ensure text colors, fills, and accents render accurately */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+

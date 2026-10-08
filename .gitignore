@@ -1,0 +1,69 @@
+node_modules/
+dist/
+.vite/
+.env
+*.log
+vite.log
+vite.err
+
+# Local environment secrets
+.env.local
+.env.*.local
+
+# Supabase local/temp files
+supabase/.temp/
+
+# Office temporary lock files
+~$*
+demo-files/~$*
+
+# Accidental PowerShell/test file
+Test-Path
+
+# AI Agent & IDE workspaces
+.claude/
+.serena/
+.qodo/
+
+# Environment variants and private key files
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Generated test output and local scratch
+playwright-report/
+test-results/
+coverage/
+scratch/
+*.err
+*.out
+
+# Local OS/IDE state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local-only data and generated output (kept on disk, not in GitHub)
+.local_pg/
+reports/
+presentations/
+samples/
+Claude outputs/
+%SystemDrive%/
+.claude-flow/
+/brochure-check-*.png
+/demo-layout-check.html
+/logfile
+
+# One-off local debug scripts
+/check-api.mjs
+/debug-pdf-analyzer.mjs
+/query.mjs
+/query_local*.cjs
+/scratch-playwright.cjs
+
+# Local build check archive
+_buildcheck.tgz

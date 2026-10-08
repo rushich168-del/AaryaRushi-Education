@@ -1,0 +1,102 @@
+
+/* Public site. Brand colours come from --brand-* variables (src/config/brand.js). */
+.ks-site{--navy:var(--brand-primary);--navy-2:var(--brand-primary-2);--navy-3:var(--brand-primary-3);--yellow:var(--brand-accent);--yellow-2:var(--brand-accent-2);--ink:var(--brand-ink);--muted:#5b6b7a;--line:#e3e9ee;--soft:#f4f7fa;--radius:16px;
+ min-height:100vh;display:flex;flex-direction:column;background:#fff;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.ks-site main{flex:1}
+.ks-site h3{font-weight:750}
+.ks-site h1,.ks-site h2,.ks-site h3{font-family:"Plus Jakarta Sans",Inter,ui-sans-serif,system-ui,sans-serif;color:var(--navy);margin:0;letter-spacing:-.02em}
+.ks-site p{margin:0}
+.ks-site a{color:inherit;text-decoration:none}
+.ks-site :focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:6px}
+.ks-wrap{width:min(1200px,calc(100% - 48px));margin-inline:auto}
+.ks-skip{position:absolute;left:16px;top:-80px;z-index:60;background:#fff;padding:12px 16px;border-radius:8px}
+.ks-skip:focus{top:12px}
+.ks-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* Buttons */
+.ks-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:0 20px;border-radius:10px;font-weight:700;font-size:14px;border:1px solid transparent;cursor:pointer;white-space:nowrap;transition:background .18s,transform .18s,box-shadow .18s,color .18s,border-color .18s;font-family:inherit}
+.ks-btn-lg{min-height:52px;padding:0 24px;font-size:15px}
+.ks-btn-yellow{background:var(--yellow);color:var(--navy)!important;box-shadow:0 6px 18px rgb(var(--brand-accent-rgb) / 0.25)}
+.ks-btn-yellow:hover{background:var(--yellow-2);transform:translateY(-1px)}
+.ks-btn-navy{background:var(--navy);color:#fff!important}
+.ks-btn-navy:hover{background:var(--navy-3);transform:translateY(-1px)}
+.ks-btn-ghost{color:var(--navy)!important;border-color:var(--line);background:#fff}
+.ks-btn-ghost:hover{border-color:var(--navy)}
+.ks-btn-outline-light{color:#fff!important;border-color:#ffffff4d;background:#ffffff0d}
+.ks-btn-outline-light:hover{background:#ffffff1f;border-color:#fff}
+.ks-btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+
+/* Header */
+.ks-header{position:sticky;top:0;z-index:40;background:#ffffffeb;backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.ks-header.is-scrolled{border-color:var(--line);box-shadow:0 6px 24px rgb(var(--brand-primary-rgb) / 0.05)}
+.ks-header-row{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
+.ks-logo{display:inline-flex;align-items:center;gap:11px;flex-shrink:0}
+.ks-logo img{width:46px;height:46px;border-radius:50%;box-shadow:0 0 0 3px #fff,0 0 0 4px var(--yellow)}
+.ks-logo strong{display:block;font-family:"Plus Jakarta Sans",Inter,sans-serif;font-size:17px;font-weight:800;color:var(--navy);letter-spacing:-.02em;line-height:1.1}
+.ks-logo small{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-accent-ink);font-weight:700;margin-top:3px}
+.ks-logo.is-light strong{color:#fff}.ks-logo.is-light small{color:var(--yellow)}
+.ks-logo.is-light img{box-shadow:0 0 0 3px var(--navy),0 0 0 4px var(--yellow)}
+.ks-nav{display:flex;align-items:center;gap:4px}
+.ks-nav>a{padding:10px 13px;border-radius:8px;font-size:14px;font-weight:600;color:#3b4d5e}
+.ks-nav>a:hover{color:var(--navy);background:var(--soft)}
+.ks-nav>a[aria-current=page]{color:var(--navy);background:#fff6d1}
+.ks-nav-actions{display:flex;gap:8px;margin-left:12px}
+.ks-menu{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;width:44px;height:44px;align-items:center;justify-content:center;color:var(--navy);cursor:pointer}
+
+/* Footer */
+.ks-footer{background:var(--navy);color:#c9d6e2;margin-top:24px}
+.ks-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.4fr;gap:40px;padding:60px 0 40px}
+.ks-footer-brand p{margin-top:18px;font-size:14px;line-height:1.7;max-width:340px}
+.ks-footer h2{color:#fff;font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:16px}
+.ks-footer-grid>div:not(.ks-footer-brand){display:flex;flex-direction:column;gap:11px;font-size:14px}
+.ks-footer-grid a:hover{color:var(--yellow)}
+.ks-footer-grid>div:not(.ks-footer-brand)>a,.ks-footer-grid>div:not(.ks-footer-brand)>span{display:inline-flex;align-items:flex-start;gap:8px;line-height:1.5}
+.ks-footer-grid svg{flex-shrink:0;margin-top:3px}
+.ks-footer-bottom{border-top:1px solid #ffffff1f;padding:20px 0 28px;display:flex;justify-content:space-between;gap:16px;font-size:12.5px;flex-wrap:wrap;color:#9fb2c4}
+
+/* Fee card */
+.ks-fee{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px 24px;box-shadow:0 2px 0 rgb(var(--brand-primary-rgb) / 0.02);transition:transform .2s,box-shadow .2s,border-color .2s;min-width:0}
+.ks-fee:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgb(var(--brand-primary-rgb) / 0.08);border-color:#cdd8e1}
+.ks-fee.is-featured{border:2px solid var(--navy);box-shadow:0 18px 40px rgb(var(--brand-primary-rgb) / 0.1)}
+.ks-fee.is-loading{min-height:360px;background:linear-gradient(90deg,#f1f5f8,#f8fafc,#f1f5f8);background-size:200% 100%;animation:ks-shimmer 1.3s infinite}
+@keyframes ks-shimmer{to{background-position:-200% 0}}
+.ks-fee-flag{position:absolute;top:-13px;left:22px;background:var(--yellow);color:var(--navy);font-size:11.5px;font-weight:800;padding:5px 11px;border-radius:999px;display:inline-flex;gap:5px;align-items:center}
+.ks-fee-cat{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#8a96a3}
+.ks-fee h3{font-size:21px;margin-top:8px;line-height:1.25}
+.ks-fee-program{font-size:13.5px;color:var(--muted);margin-top:6px!important}
+.ks-fee-program span{color:var(--navy);font-weight:600}
+.ks-fee-price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:20px!important;padding-top:18px;border-top:1px dashed var(--line)}
+.ks-fee-price strong{font-family:"Plus Jakarta Sans",Inter,sans-serif;font-size:34px;font-weight:800;color:var(--navy);letter-spacing:-.03em}
+.ks-fee-price s{color:#8a96a3;font-size:15px}
+.ks-fee-price em{font-style:normal;font-size:12px;font-weight:800;color:#0b7a43;background:#e3f6ec;padding:3px 8px;border-radius:999px}
+.ks-fee-duration{font-size:13px;color:var(--muted);margin-top:4px!important}
+.ks-fee-desc{font-size:14px;color:#46596b;line-height:1.6;margin-top:14px!important}
+.ks-fee ul{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:9px;font-size:14px;color:#2d4256}
+.ks-fee li{display:flex;gap:9px;align-items:flex-start}
+.ks-fee li svg{color:#0b7a43;flex-shrink:0;margin-top:2px}
+.ks-fee-cta{margin-top:auto;width:100%}
+.ks-fee ul+.ks-fee-cta,.ks-fee-duration+.ks-fee-cta,.ks-fee-desc+.ks-fee-cta{margin-top:24px}
+.ks-fee>.ks-fee-cta{position:relative}
+.ks-fee .ks-fee-cta{align-self:stretch}
+
+@media(max-width:1060px){
+ .ks-menu{display:inline-flex}
+ .ks-nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:12px 24px 20px;gap:2px;box-shadow:0 18px 30px rgb(var(--brand-primary-rgb) / 0.08)}
+ .ks-nav.is-open{display:flex}
+ .ks-nav>a{padding:13px 12px;font-size:15px}
+ .ks-nav-actions{margin:10px 0 0;flex-direction:column}
+ .ks-nav-actions .ks-btn{min-height:48px}
+ .ks-footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+ .ks-wrap{width:calc(100% - 32px)}
+ .ks-header-row{min-height:66px}
+ .ks-logo img{width:40px;height:40px}.ks-logo strong{font-size:15.5px}
+ .ks-nav{padding:10px 16px 18px}
+ .ks-footer-grid{grid-template-columns:1fr;gap:28px;padding:44px 0 28px}
+ .ks-fee{padding:24px 20px 20px}
+}
+@media(prefers-reduced-motion:reduce){.ks-site *{transition:none!important;animation:none!important}}
+
+/* Older page content inside the new layout */
+.ks-site .ksc-public-content{min-height:0;display:block;background:transparent}

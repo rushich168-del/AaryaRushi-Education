@@ -1,0 +1,61 @@
+.staff-login-page,.staff-status,.staff-workspace{--staff-navy:var(--brand-primary);--staff-yellow:var(--brand-accent);color:var(--brand-primary);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.staff-login-page{min-height:100vh;padding:45px 24px;display:grid;place-items:center;background:#f3f6f8}
+.staff-login-shell{width:100%;max-width:1050px;display:grid;grid-template-columns:1fr 1fr;background:white;border:1px solid #dfe7ec;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgb(var(--brand-primary-rgb) / 0.06)}
+.staff-login-story{background:var(--brand-primary);color:white;padding:48px;display:flex;flex-direction:column}
+.staff-brand{display:flex;align-items:center;gap:16px;font-size:24px;font-weight:800}
+.staff-brand span{font-size:14px;font-weight:650}
+.staff-eyebrow{font-size:10px;letter-spacing:1.7px;font-weight:750;margin:0}
+.staff-login-story>.staff-eyebrow{color:var(--brand-accent);margin-top:75px}
+.staff-login-story h1{font-size:43px;line-height:1.13;letter-spacing:-1.6px;margin:20px 0}
+.staff-login-story>p:not(.staff-eyebrow){font-size:15px;line-height:1.8;color:#d1dee7}
+.staff-story-note{margin-top:60px;padding-top:23px;border-top:1px solid #ffffff25;font-size:12px;color:#d1dee7}
+.staff-login-form{padding:52px 45px}
+.staff-login-form h2{font-size:29px;letter-spacing:-.9px;margin:14px 0 12px}
+.staff-login-form>p:not(.staff-eyebrow){font-size:13px;line-height:1.7;color:#607381}
+.staff-login-form .staff-account-email{overflow-wrap:anywhere;color:var(--brand-primary);font-weight:650}
+.staff-form{display:grid;gap:19px;margin:26px 0}
+.staff-form label{font-size:12px;font-weight:650;display:grid;gap:8px}
+.staff-form input,.staff-form select,.staff-field{width:100%;min-height:47px;background:white;border:1px solid #cdd9e0;border-radius:7px;padding:11px 13px;color:var(--brand-primary);font-size:14px;font-weight:450}
+.staff-form input:focus,.staff-field:focus{outline:2px solid #0a5b83;outline-offset:2px}
+.staff-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:45px;padding:11px 20px;border-radius:7px;background:var(--brand-primary);color:white;font-size:12px;font-weight:700;border:1px solid transparent}
+.staff-button:hover{background:var(--brand-primary-3)}
+.staff-button:disabled{opacity:.55;cursor:wait}
+.staff-button-light{background:#f1f5f7;color:var(--brand-primary);border-color:#dce5ea}
+.staff-button-light:hover{background:#e5edf2}
+.staff-button-yellow{background:var(--brand-accent);color:var(--brand-primary)}
+.staff-link{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:650;color:#0a5b83;min-height:36px}
+.staff-login-help{padding:17px 18px;background:#f4f7f9;border-radius:8px;font-size:12px;line-height:1.8;color:#607381;margin:22px 0 12px}
+.staff-error{color:#a32222;background:#fff1f1;border:1px solid #f4d1d1;border-radius:7px;padding:12px;font-size:12px;line-height:1.7}
+.staff-status{min-height:100vh;display:grid;place-items:center;padding:26px;background:#f3f6f8}
+.staff-card{background:white;border:1px solid #dfe7ec;border-radius:12px;padding:26px}
+.staff-access-message{max-width:540px;width:100%}
+.staff-access-message h1{font-size:27px;letter-spacing:-.8px;margin:15px 0}
+.staff-access-message>p:not(.staff-eyebrow){font-size:13px;line-height:1.8;color:#607381}
+.staff-access-message .staff-account-email{font-weight:700;color:var(--brand-primary)!important;overflow-wrap:anywhere;margin-bottom:15px}
+.staff-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:20px}
+.staff-workspace{min-height:100vh;background:#f4f7f9}
+.staff-workspace-header{background:white;border-bottom:1px solid #dfe7ec;padding:20px max(24px,calc((100vw - 1180px)/2));display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+.staff-workspace-header h1{font-size:20px;font-weight:750}
+.staff-workspace-header p{font-size:12px;color:#617482;overflow-wrap:anywhere;margin-top:5px}
+.staff-workspace-nav{display:flex;gap:6px;flex-wrap:wrap;margin-top:15px}
+.staff-workspace-nav a{font-size:12px;padding:9px 14px;border-radius:6px;font-weight:650}
+.staff-workspace-nav a[aria-current=page]{background:var(--brand-primary);color:white}
+.staff-workspace-content{max-width:1180px;padding:34px 24px;margin:auto}
+.staff-workspace-content h2{font-size:27px;font-weight:750;letter-spacing:-.6px;margin-bottom:12px}
+.staff-workspace-content h3{font-size:17px;font-weight:700}
+.staff-subtitle{font-size:13px;line-height:1.8;color:#617482;margin-bottom:25px}
+.staff-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.staff-assignment-list{display:grid;gap:10px;max-height:240px;overflow:auto;margin-top:12px}
+.staff-assignment-list label{display:flex;gap:10px;align-items:center;font-size:12px;font-weight:450}
+.staff-assignment-list input{width:17px;min-height:17px;height:17px;accent-color:var(--brand-primary);flex-shrink:0}
+.staff-teacher-row{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:20px 0;border-bottom:1px solid #e5ecf0;flex-wrap:wrap}
+.staff-teacher-row p{font-size:12px;color:#617482;margin-top:7px;overflow-wrap:anywhere}
+.staff-badge{display:inline-block;font-size:10px;font-weight:700;padding:5px 8px;border-radius:5px;background:#eef3f6}
+.staff-success{border:1px solid #b9dac9;background:#eef8f1;padding:18px;border-radius:8px;font-size:13px;line-height:1.8;overflow-wrap:anywhere}
+.staff-table-wrap{overflow:auto}
+.staff-table{width:100%;text-align:left;font-size:12px}
+.staff-table th,.staff-table td{padding:13px;border-bottom:1px solid #e5ecf0}
+.staff-workspace a:focus-visible,.staff-login-page a:focus-visible,.staff-button:focus-visible,.staff-link:focus-visible{outline:3px solid #1c7199;outline-offset:3px}
+@media(max-width:760px){.staff-login-page{padding:20px 16px}.staff-login-shell{grid-template-columns:1fr}.staff-login-story{padding:28px}.staff-login-story>.staff-eyebrow{margin-top:30px}.staff-login-story h1{font-size:31px;margin:14px 0}.staff-login-story>p:not(.staff-eyebrow){font-size:13px}.staff-story-note{display:none}.staff-login-form{padding:30px 25px}.staff-grid{grid-template-columns:1fr}.staff-workspace-header{padding:20px}.staff-workspace-content{padding:25px 18px}.staff-workspace-nav a{padding:9px 10px;font-size:11px}.staff-card{padding:21px}.staff-access-message h1{font-size:24px}}
+.staff-password-checks{display:grid;gap:6px;padding:0;list-style:none;color:#64748b;font-size:14px}.staff-password-checks .is-met{color:#166534}.staff-password-checks li{line-height:1.6}
+.teacher-test-portal{display:flex;align-items:center;gap:20px;text-decoration:none;margin:20px 0;background:linear-gradient(110deg,#eef1ff,#fff);border-color:#dce2fb}.teacher-test-icon{display:grid;place-items:center;flex-shrink:0;width:52px;height:52px;background:#6953d8;border-radius:12px;color:white;font-size:30px;box-shadow:0 5px 15px #6953d825}

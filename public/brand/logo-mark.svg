@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AaryaRushi Education">
+  <rect width="64" height="64" rx="16" fill="#312e81"/>
+  <path d="M10 46 L32 12 L54 46" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".35"/>
+  <text x="32" y="41" text-anchor="middle" font-family="'Plus Jakarta Sans',Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="-1" fill="#ffffff">A<tspan fill="#f59e0b">R</tspan></text>
+</svg>

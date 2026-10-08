@@ -1,0 +1,185 @@
+{
+  "version": "foundation-demo-key-v1",
+  "status": "demo",
+  "teacherApproved": true,
+  "preparedAt": "2026-10-08",
+  "policy": "1 mark per correct answer, no negative marking. Original demo questions written for AaryaRushi Education.",
+  "sources": [],
+  "answers": [
+    {
+      "questionId": 1,
+      "option": 3,
+      "explanation": "3x = 11 + 7 = 18, so x = 18 ÷ 3 = 6.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 2,
+      "option": 1,
+      "explanation": "12 = 2² × 3 and 18 = 2 × 3², so LCM = 2² × 3² = 36.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 3,
+      "option": 2,
+      "explanation": "Area = πr² = 22/7 × 7 × 7 = 154 cm².",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 4,
+      "option": 1,
+      "explanation": "SI = P × R × T ÷ 100 = 5000 × 8 × 3 ÷ 100 = ₹1,200.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 5,
+      "option": 1,
+      "explanation": "√144 = 12 and ∛27 = 3, so the sum is 15.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 6,
+      "option": 3,
+      "explanation": "Force is measured in newtons (N); 1 N = 1 kg·m/s².",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 7,
+      "option": 2,
+      "explanation": "Water is split during photosynthesis and oxygen is released.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 8,
+      "option": 2,
+      "explanation": "Pure water is neutral, with pH 7 at 25 °C.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 9,
+      "option": 3,
+      "explanation": "Mitochondria release energy (ATP) through cellular respiration.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 10,
+      "option": 2,
+      "explanation": "Speed = distance ÷ time = 150 ÷ 2.5 = 60 km/h.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 11,
+      "option": 2,
+      "explanation": "The differences are 4, 6, 8, 10, so the next difference is 12: 30 + 12 = 42.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 12,
+      "option": 1,
+      "explanation": "Each letter moves one place forward: D→E, O→P, G→H.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 13,
+      "option": 3,
+      "explanation": "A cube is a three-dimensional solid; the others are flat (2D) shapes.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 14,
+      "option": 2,
+      "explanation": "A and B are siblings, so A’s mother is also B’s mother.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 15,
+      "option": 3,
+      "explanation": "North → right turn → East → right turn → South.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 16,
+      "option": 2,
+      "explanation": "Abundant means existing in large quantities — plentiful.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 17,
+      "option": 2,
+      "explanation": "Ancient means very old; its opposite is modern.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 18,
+      "option": 2,
+      "explanation": "A singular subject in the simple present takes “goes”.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 19,
+      "option": 3,
+      "explanation": "The correct spelling has double “c” and double “m”: accommodate.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 20,
+      "option": 3,
+      "explanation": "“Child” has an irregular plural: children.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 21,
+      "option": 3,
+      "explanation": "Jupiter is the largest planet by both mass and diameter.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 22,
+      "option": 2,
+      "explanation": "Rabindranath Tagore wrote and composed Jana Gana Mana.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 23,
+      "option": 2,
+      "explanation": "The Ganga (about 2,525 km) is the longest river in India.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 24,
+      "option": 2,
+      "explanation": "The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950.",
+      "status": "final",
+      "sourceIds": []
+    },
+    {
+      "questionId": 25,
+      "option": 3,
+      "explanation": "Japan uses the yen; the yuan is China’s and the won is Korea’s.",
+      "status": "final",
+      "sourceIds": []
+    }
+  ]
+}

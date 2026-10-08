@@ -1,0 +1,27 @@
+{
+  "provenance": "SIMULATED TEACHER INPUT for tests and the B4.8.3C acceptance simulation only. Values were read by the assistant from the source renders (reports/b483a/crops, the B4.8.3A 'visible' reference); they are NOT teacher-verified and are NEVER read by the preparation pipeline. Keyed by the pixel fingerprint that preparation computed for the golden SI/Constable paper; the input is what a teacher would type (friendly form, not LaTeX).",
+  "paper": "SI-CONSTABLE TEST-10(27.03.2026)28 PAGES.pdf",
+  "resolutions": {
+    "px:ba37f225cdb4ac64ad93ba31": { "input": "1/2", "seenIn": "Q50 B/D, Q60 B/C, Q67 stem, Q74 B" },
+    "px:05a25ad746cfc39082c33984": { "input": "2/3", "seenIn": "Q51 A/D, Q60 A, Q74 C/D" },
+    "px:f6c256a072beb34e3fa298cf": { "input": "4/11", "seenIn": "Q43 B/C/D" },
+    "px:59f7c44f2ae58f6636e55078": { "input": "1/3", "seenIn": "Q63 (Telugu stem), Q74 A, Q76 D" },
+    "px:bde152d3bea83aa67be7dcd7": { "input": "1/11", "seenIn": "Q43 A" },
+    "px:970eaba53270d694ceca95f1": { "input": "1/5", "seenIn": "Q51 B" },
+    "px:329005780c9e0f6def50c301": { "input": "1/4", "seenIn": "Q51 C" },
+    "px:5e3fb700b1e3b96648a42779": { "input": "√3", "seenIn": "Q75 A/B" },
+    "px:696614f2ffbae9b01d1fabbc": { "input": "1/7", "seenIn": "Q41 A" },
+    "px:ce17e69087da4ba8f6ba3617": { "input": "2/7", "seenIn": "Q41 B" },
+    "px:6ff3af4faefb155da3bcc478": { "input": "3/7", "seenIn": "Q41 C" },
+    "px:68b42ffe0a2a9a5a3d0c81a2": { "input": "5/14", "seenIn": "Q41 D" },
+    "px:e0e80be34d954d7a33e2f9a7": { "input": "5/9", "seenIn": "Q63 (Telugu stem)" },
+    "px:d2aae6b6718c3a4ccc1acaa6": { "input": "8/11", "seenIn": "Q66 A" },
+    "px:0488ee24acb49e43fd741277": { "input": "10/13", "seenIn": "Q66 B" },
+    "px:05b8f87668927f60e61173c4": { "input": "9/13", "seenIn": "Q66 C" },
+    "px:b6310b00e75f31313798fa3b": { "input": "10/11", "seenIn": "Q66 D" },
+    "px:07557ce04ef81574069382ed": { "input": "70√3/3", "seenIn": "Q75 C" },
+    "px:99e8888842bdac099c6c5ca7": { "input": "2/455", "seenIn": "Q76 A" },
+    "px:2d9caa5e60af91da287a7245": { "input": "4/15", "seenIn": "Q76 B" },
+    "px:c469cf0fc649a72fc070bd5d": { "input": "5/27", "seenIn": "Q76 C" }
+  }
+}

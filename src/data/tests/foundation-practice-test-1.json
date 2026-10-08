@@ -1,0 +1,441 @@
+{
+  "id": "foundation-practice-test-1",
+  "version": "foundation-demo-v1",
+  "examSlug": "foundation",
+  "title": "Foundation Practice Test – 1",
+  "sourceDate": "",
+  "durationSeconds": 1800,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "mode": "local-demo",
+  "keyStatus": "demo",
+  "keyVersion": "foundation-demo-key-v1",
+  "excludedQuestionCount": 0,
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Mathematics",
+      "paragraphs": [
+        "If 3x − 7 = 11, what is the value of x?",
+        "1. 4",
+        "2. 5",
+        "3. 6",
+        "4. 7"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "Mathematics",
+      "paragraphs": [
+        "What is the LCM of 12 and 18?",
+        "1. 36",
+        "2. 54",
+        "3. 72",
+        "4. 6"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "Mathematics",
+      "paragraphs": [
+        "What is the area of a circle of radius 7 cm? (Take π = 22/7)",
+        "1. 44 cm²",
+        "2. 154 cm²",
+        "3. 144 cm²",
+        "4. 308 cm²"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Mathematics",
+      "paragraphs": [
+        "What is the simple interest on ₹5,000 at 8% per annum for 3 years?",
+        "1. ₹1,200",
+        "2. ₹1,000",
+        "3. ₹1,500",
+        "4. ₹800"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "Mathematics",
+      "paragraphs": [
+        "Find the value of √144 + ∛27.",
+        "1. 15",
+        "2. 12",
+        "3. 9",
+        "4. 18"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "Science",
+      "paragraphs": [
+        "What is the SI unit of force?",
+        "1. Joule",
+        "2. Watt",
+        "3. Newton",
+        "4. Pascal"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "Science",
+      "paragraphs": [
+        "Which gas do green plants release during photosynthesis?",
+        "1. Carbon dioxide",
+        "2. Oxygen",
+        "3. Nitrogen",
+        "4. Hydrogen"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "Science",
+      "paragraphs": [
+        "What is the pH of pure water at 25 °C?",
+        "1. 0",
+        "2. 7",
+        "3. 14",
+        "4. 1"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 9,
+      "subject": "Science",
+      "paragraphs": [
+        "Which cell organelle is called the powerhouse of the cell?",
+        "1. Nucleus",
+        "2. Ribosome",
+        "3. Mitochondria",
+        "4. Golgi apparatus"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 10,
+      "subject": "Science",
+      "paragraphs": [
+        "A car covers 150 km in 2.5 hours. What is its average speed?",
+        "1. 50 km/h",
+        "2. 60 km/h",
+        "3. 75 km/h",
+        "4. 65 km/h"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 11,
+      "subject": "Reasoning",
+      "paragraphs": [
+        "Find the next number: 2, 6, 12, 20, 30, ?",
+        "1. 40",
+        "2. 42",
+        "3. 36",
+        "4. 44"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 12,
+      "subject": "Reasoning",
+      "paragraphs": [
+        "If CAT is written as DBU, how is DOG written in the same code?",
+        "1. EPH",
+        "2. EPG",
+        "3. CNF",
+        "4. FQI"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "subject": "Reasoning",
+      "paragraphs": [
+        "Which one is the odd one out?",
+        "1. Triangle",
+        "2. Square",
+        "3. Cube",
+        "4. Pentagon"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "subject": "Reasoning",
+      "paragraphs": [
+        "A is B’s brother. C is A’s mother. How is C related to B?",
+        "1. Aunt",
+        "2. Mother",
+        "3. Sister",
+        "4. Grandmother"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 15,
+      "subject": "Reasoning",
+      "paragraphs": [
+        "You face North, turn 90° to your right, then 90° to your right again. Which direction are you facing now?",
+        "1. East",
+        "2. West",
+        "3. South",
+        "4. North"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 16,
+      "subject": "English",
+      "paragraphs": [
+        "Choose the word closest in meaning to “Abundant”.",
+        "1. Scarce",
+        "2. Plentiful",
+        "3. Tiny",
+        "4. Empty"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 17,
+      "subject": "English",
+      "paragraphs": [
+        "Choose the word opposite in meaning to “Ancient”.",
+        "1. Old",
+        "2. Modern",
+        "3. Historic",
+        "4. Antique"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 18,
+      "subject": "English",
+      "paragraphs": [
+        "Fill in the blank: “She ____ to school every day.”",
+        "1. go",
+        "2. goes",
+        "3. going",
+        "4. gone"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "subject": "English",
+      "paragraphs": [
+        "Choose the correctly spelt word.",
+        "1. Accomodate",
+        "2. Acommodate",
+        "3. Accommodate",
+        "4. Acomodate"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "subject": "English",
+      "paragraphs": [
+        "What is the plural of “child”?",
+        "1. childs",
+        "2. childes",
+        "3. children",
+        "4. childrens"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 21,
+      "subject": "General Knowledge",
+      "paragraphs": [
+        "Which is the largest planet in our solar system?",
+        "1. Earth",
+        "2. Saturn",
+        "3. Jupiter",
+        "4. Neptune"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 22,
+      "subject": "General Knowledge",
+      "paragraphs": [
+        "Who wrote “Jana Gana Mana”, India’s national anthem?",
+        "1. Bankim Chandra Chatterjee",
+        "2. Rabindranath Tagore",
+        "3. Sarojini Naidu",
+        "4. Muhammad Iqbal"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 23,
+      "subject": "General Knowledge",
+      "paragraphs": [
+        "Which is the longest river in India?",
+        "1. Godavari",
+        "2. Ganga",
+        "3. Krishna",
+        "4. Narmada"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 24,
+      "subject": "General Knowledge",
+      "paragraphs": [
+        "On which date did the Constitution of India come into effect?",
+        "1. 15 August 1947",
+        "2. 26 January 1950",
+        "3. 26 November 1949",
+        "4. 2 October 1950"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 25,
+      "subject": "General Knowledge",
+      "paragraphs": [
+        "What is the currency of Japan?",
+        "1. Yuan",
+        "2. Won",
+        "3. Yen",
+        "4. Ringgit"
+      ],
+      "optionIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

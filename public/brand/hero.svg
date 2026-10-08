@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 931" role="img" aria-label="Illustration of study materials, a test paper and a progress chart">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef2ff"/><stop offset="1" stop-color="#fef3c7"/></linearGradient>
+    <linearGradient id="ind" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4338ca"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+  </defs>
+  <rect width="760" height="931" fill="url(#bg)"/>
+  <circle cx="610" cy="170" r="120" fill="#f59e0b" opacity=".18"/>
+  <circle cx="120" cy="780" r="160" fill="#4338ca" opacity=".10"/>
+  <!-- test paper -->
+  <g transform="translate(150 170) rotate(-6)">
+    <rect width="380" height="480" rx="22" fill="#fff" stroke="#c7d2fe" stroke-width="3"/>
+    <rect x="34" y="40" width="200" height="18" rx="9" fill="#312e81"/>
+    <rect x="34" y="76" width="140" height="12" rx="6" fill="#a5b4fc"/>
+    <g fill="#e0e7ff">
+      <rect x="34" y="130" width="312" height="12" rx="6"/><rect x="34" y="154" width="260" height="12" rx="6"/>
+      <rect x="34" y="250" width="312" height="12" rx="6"/><rect x="34" y="274" width="220" height="12" rx="6"/>
+      <rect x="34" y="370" width="312" height="12" rx="6"/><rect x="34" y="394" width="280" height="12" rx="6"/>
+    </g>
+    <g stroke="#312e81" stroke-width="3" fill="none">
+      <circle cx="48" cy="200" r="11"/><circle cx="130" cy="200" r="11"/><circle cx="212" cy="200" r="11"/>
+      <circle cx="48" cy="320" r="11"/><circle cx="130" cy="320" r="11"/><circle cx="212" cy="320" r="11"/>
+    </g>
+    <circle cx="130" cy="200" r="7" fill="#f59e0b"/><circle cx="48" cy="320" r="7" fill="#f59e0b"/>
+  </g>
+  <!-- progress card -->
+  <g transform="translate(380 560)">
+    <rect width="300" height="230" rx="22" fill="url(#ind)"/>
+    <rect x="28" y="28" width="120" height="14" rx="7" fill="#c7d2fe" opacity=".8"/>
+    <g fill="#f59e0b"><rect x="40" y="140" width="34" height="60" rx="8"/><rect x="96" y="110" width="34" height="90" rx="8"/><rect x="152" y="86" width="34" height="114" rx="8"/><rect x="208" y="60" width="34" height="140" rx="8"/></g>
+  </g>
+  <!-- books -->
+  <g transform="translate(90 640)">
+    <rect width="250" height="44" rx="10" fill="#312e81"/><rect y="52" width="230" height="44" rx="10" fill="#f59e0b"/><rect y="104" width="260" height="44" rx="10" fill="#4338ca"/>
+    <rect x="18" y="16" width="120" height="10" rx="5" fill="#fff" opacity=".6"/><rect x="18" y="120" width="140" height="10" rx="5" fill="#fff" opacity=".6"/>
+  </g>
+</svg>
